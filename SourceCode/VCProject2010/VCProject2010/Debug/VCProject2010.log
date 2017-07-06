@@ -1,0 +1,19 @@
+﻿  LessonX.cpp
+c:\program files (x86)\funcode\games\tantantang\sourcecode\header\lessonx.h(37): warning C4091: “extern ”: 没有声明变量时忽略“Weapon”的左侧
+c:\program files (x86)\funcode\games\tantantang\sourcecode\header\lessonx.h(46): warning C4091: “extern ”: 没有声明变量时忽略“army”的左侧
+c:\program files (x86)\funcode\games\tantantang\sourcecode\header\lessonx.h(51): warning C4091: “extern ”: 没有声明变量时忽略“Treasure”的左侧
+c:\program files (x86)\funcode\games\tantantang\sourcecode\src\lessonx.cpp(104): warning C4305: “参数”: 从“double”到“const float”截断
+c:\program files (x86)\funcode\games\tantantang\sourcecode\src\lessonx.cpp(101): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1769): note: 参见“sprintf”的声明
+c:\program files (x86)\funcode\games\tantantang\sourcecode\src\lessonx.cpp(212): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(568): note: 参见“stricmp”的声明
+c:\program files (x86)\funcode\games\tantantang\sourcecode\src\lessonx.cpp(262): warning C4244: “参数”: 从“float”转换到“const int”，可能丢失数据
+c:\program files (x86)\funcode\games\tantantang\sourcecode\src\lessonx.cpp(275): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\program files (x86)\funcode\games\tantantang\sourcecode\src\lessonx.cpp(283): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+c:\program files (x86)\funcode\games\tantantang\sourcecode\src\lessonx.cpp(294): warning C4804: “<”: 在操作中使用类型“bool”不安全
+c:\program files (x86)\funcode\games\tantantang\sourcecode\src\lessonx.cpp(341): warning C4804: “<=”: 在操作中使用类型“bool”不安全
+LessonX.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/OPT:LBR”规范)
+LINK : warning LNK4098: 默认库“LIBCMT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+CommonAPI_2010.Lib(CommonAPI.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“CommonAPI_2010.Lib(CommonAPI.obj)”或在“C:\Program Files (x86)\FunCode\Games\Tantantang\SourceCode\VCProject2010\VCProject2010\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+  VCProject2010.vcxproj -> C:\Program Files (x86)\FunCode\Games\Tantantang\SourceCode\VCProject2010\VCProject2010\..\..\..\Bin\Game.exe
+  VCProject2010.vcxproj -> Debug\Game.pdb (Full PDB)
